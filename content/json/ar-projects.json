@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "route": "tripadvisor",
+    "url": "https://tripadvisor-frontend.netlify.app/",
+    "title": "TripAdvisor - Buenos Aires",
+    "date": "December 2020",
+    "description": "A pure reproduction of the Buenos Aires main page on TripAdvisor. The main goal was to put into practice frontend techniques that we learnt (DOM, Responsive, Flexbox, etc) but also to implement a small database for a login/signup usage (able to send an email confirmation on signup)",
+    "thumbnail": "",
+    "stacks-tags": ["Frontend", "Backend"],
+    "technologies-tags": [
+      "HTML",
+      "CSS",
+      "Mailgun",
+      "js-cookie",
+      "cors",
+      "crypto-js",
+      "dotenv",
+      "express-formidable"
+    ],
+    "deploys": ["Netlify", "Heroku"]
+  },
+  {
+    "id": 1,
+    "route": "mybank",
+    "url": "https://my-bank-react.netlify.app/",
+    "title": "My Bank - React",
+    "date": "December 2020",
+    "description": "A fake bank account main page created using React. The goal was to learn how to create and manage components in a single page so far.",
+    "thumbnail": "",
+    "stacks-tags": ["Frontend"],
+    "technologies-tags": ["React"],
+    "deploys": ["Netlify"]
+  },
+  {
+    "id": 2,
+    "route": "simpleform",
+    "url": "https://simple-form-hysteria.netlify.app/",
+    "title": "Simple Form",
+    "date": "January 2021",
+    "description": "A simple form able to manage a signup form. The main goal was to set safeguards rules for the form completion and clearly display the result to the user",
+    "thumbnail": "",
+    "stacks-tags": ["Frontend"],
+    "technologies-tags": ["React"],
+    "deploys": ["Netlify"]
+  },
+  {
+    "id": 3,
+    "route": "netflix",
+    "url": "https://netflix-react-hysteria.netlify.app/",
+    "title": "Netflix",
+    "date": "January 2021",
+    "description": "A fake Netflix main page with carousel of programs to watch. This was built with React. The goal was to design carousels with React but also to make unit tests using Jest (in order to check if elements are well displayed)",
+    "thumbnail": "",
+    "stacks-tags": ["Frontend"],
+    "technologies-tags": ["React", "Jest"],
+    "deploys": ["Netlify"]
+  },
+  {
+    "id": 4,
+    "route": "marvel",
+    "url": "https://marvel-comics-api.netlify.app/",
+    "title": "Marvel Comics API",
+    "date": "March 2021",
+    "description": "Website which allows you to explore Marvel Comics API. All Characters and Comics are gathered and you can signup in order to select your favorites ones.",
+    "thumbnail": "",
+    "stacks-tags": ["Frontend", "Backend"],
+    "technologies-tags": [
+      "React",
+      "Node",
+      "Express",
+      "Mongoose",
+      "MongoDB",
+      "Axios",
+      "React-Router",
+      "js-cookie",
+      "qs",
+      "react-paginate",
+      "cors",
+      "crypto-js",
+      "dotenv",
+      "express-formidable"
+    ],
+    "deploys": ["Netlify", "Heroku"]
+  }
+]
