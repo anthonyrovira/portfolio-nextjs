@@ -1,0 +1,58 @@
+.subtitleContainer {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+}
+.subtitleContainer * {
+  font-family: "Sen";
+  white-space: nowrap;
+  font-weight: lighter;
+  font-size: 2.8vw;
+  letter-spacing: 1.4vw;
+  color: var(--white);
+  text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.cursor {
+  font-size: 2.8vw;
+  opacity: 1;
+  -webkit-animation: blink 0.4s infinite;
+  -moz-animation: blink 0.4s infinite;
+  animation: blink 0.4s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subtitleContainer * {
+    letter-spacing: 1vw;
+  }
+}
+
+@media (max-width: 426px) {
+  .subtitleContainer * {
+    font-size: 3.6vw;
+  }
+  .cursor {
+    font-size: 3.6vw;
+  }
+}
