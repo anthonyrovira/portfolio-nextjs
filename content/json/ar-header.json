@@ -1,0 +1,29 @@
+{
+  "english": {
+    "header": [
+      { "projects": "Projects" },
+      { "skills": "Skills" },
+      { "about": "About" },
+      { "contact": "Contact" }
+    ],
+    "title": "Web & Mobile Developer"
+  },
+  "french": {
+    "header": [
+      { "projects": "Projets" },
+      { "skills": "Compétences" },
+      { "about": "A propos" },
+      { "contact": "Contact" }
+    ],
+    "title": "Développeur Web & Mobile"
+  },
+  "spanish": {
+    "header": [
+      { "projects": "Proyectos" },
+      { "skills": "Competencias" },
+      { "about": "Sobre mi" },
+      { "contact": "Contacto" }
+    ],
+    "title": "Desarrollador web y móvil"
+  }
+}

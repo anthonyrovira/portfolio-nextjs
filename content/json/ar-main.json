@@ -1,0 +1,48 @@
+{
+  "english": {
+    "hero": {
+      "title": "Anthony Rovira",
+      "subtitles": [
+        "Web developer",
+        "Mobile app developer",
+        "Full stack JS developer",
+        "Frontend Developer",
+        "Backend Developer"
+      ],
+      "ctaRead": "Read More",
+      "ctaContact": "Contact me"
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "skills": {
+      "title": "Skills",
+      "categories": [
+        "Programming Languages",
+        "Frontend Devtools",
+        "Backend Devtools",
+        "Mobile App Devtools",
+        "Database",
+        "State Management",
+        "Static Site Generator",
+        "Server Side Rendering",
+        "Testing",
+        "Software",
+        "Other"
+      ]
+    },
+    "about": {
+      "0": "Hi there! My name is Anthony and I'm a full-stack JS Junior Developer looking for a new job opportunity.",
+      "1": "Since my early age, I've always been fascinated by Internet. I spent most of my time on my computer playing or simply surfing on the net. Later, I started to be interested in computer science and development. I did couple of projects such as a password manager software written in Visual Basic and plenty other projects using an Arduino dev board. After being graduated of a Master in Computer Science, I leant software development using LabVIEW. I made couple of programs designed to process data measurements and testings for climatic test chambers.",
+      "2": "In 2020, my curiosity led me to begin a Coding Bootcamp of 25 weeks long to study Web & Mobile App Development with Le Reacteur. This made me realise at once the power and the complexity of Internet. However, thanks to a top quality teaching staff and many efforts and hours coding, the challenge has been made accessible and I got certified !",
+      "3": "Today I'm definitely ready to make my career switch to Web & Mobile App Developer. I want to make a technical and a concrete contribution helping a company to grow. I also want to work together with a team, sharing skills, tasks, advices and a bunch of nerd jokes."
+    },
+    "contact": {
+      "name": "Name",
+      "mail": "Email",
+      "company": "Company (optional)",
+      "message": "Type here...",
+      "send": "Send"
+    }
+  }
+}
