@@ -18,7 +18,7 @@ const Main = ({ language }) => {
   return (
     <>
       <Hero content={data[language].hero} />
-      <Projects content={data[language].projects} />
+      <Projects content={data[language].projects} language={language} />
       {/*
       <h2 className={styles.title}>My Web Projects:</h2>
       {projects.map((project, index) => (

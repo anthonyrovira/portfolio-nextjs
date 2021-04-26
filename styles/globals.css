@@ -9,6 +9,7 @@
 
   --dark-grey: #29323c;
   --medium-grey: #485563;
+  --light-grey: #eaeaea;
   --white: #ffffff;
   --white-trans: hsla(248, 13%, 77%, 0.774);
   --light-blue: #e2f8ff;
@@ -111,7 +112,7 @@ h1 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
-  line-height: 1.1;
+  letter-spacing: 1vw;
 }
 
 h2 {
