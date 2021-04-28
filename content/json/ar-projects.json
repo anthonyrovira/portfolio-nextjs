@@ -2,7 +2,7 @@
   {
     "id": 0,
     "protected": false,
-    "route": "tripadvisor",
+    "slug": "tripadvisor",
     "url": "https://tripadvisor-frontend.netlify.app/",
     "github": {
       "backend": "https://github.com/anthonyrovira/tripadvisor-backend",
@@ -16,7 +16,7 @@
     },
     "description": "A pure reproduction of the Buenos Aires main page on TripAdvisor. The main goal was to put into practice frontend techniques that we learnt (DOM, Responsive, Flexbox, etc) but also to implement a small database for a login/signup usage (able to send an email confirmation on signup)",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452954/portfolio/projects-generics/tripadvisor-generic_fbcwic.png",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": [
       "HTML",
       "CSS",
@@ -32,7 +32,7 @@
   {
     "id": 1,
     "protected": true,
-    "route": "tellmemore",
+    "slug": "tellmemore",
     "url": "https://tell-me-more-reacteur.netlify.app/",
     "github": {
       "backend": "https://github.com/anthonyrovira/tell-me-more-backend",
@@ -46,14 +46,14 @@
     },
     "description": "Full-stack project inspired by TypeForm. It is a survey form generator which allows to make friendly and editable forms, to fill them in and to visualize and administrate replies. This project was part of a technical test. Therefore the GitHub repository is private and the website access is password restricted. However, access can be given submitting request in contact field.",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619453306/portfolio/projects-generics/tellmemore-generic_yjy0ty.png",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": ["React"],
     "deploys": ["Netlify", "Heroku"]
   },
   {
     "id": 2,
     "protected": false,
-    "route": "yuka",
+    "slug": "yuka",
     "url": "",
     "github": {
       "backend": "https://github.com/anthonyrovira/yuka-backend",
@@ -67,14 +67,14 @@
     },
     "description": "A pure replication of the Yuka mobile app. It allows to scan for products barcode to save them and to know about their nutrient data. Theses data are provided by the public OpenFoodFacts database. ",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452972/portfolio/projects-generics/yuka-generic_dadpfu.jpg",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": ["React Native"],
     "deploys": ["Expo"]
   },
   {
     "id": 2,
     "protected": false,
-    "route": "airbnb",
+    "slug": "airbnb",
     "url": "",
     "github": {
       "backend": "https://github.com/anthonyrovira/airbnb-backend",
@@ -88,14 +88,14 @@
     },
     "description": "",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452872/portfolio/projects-generics/airbnb-logo_k1rfwg.jpg",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": ["React Native"],
     "deploys": ["Expo"]
   },
   {
     "id": 3,
     "protected": false,
-    "route": "escapegame-scraping",
+    "slug": "escapegame-scraping",
     "url": "https://www.escapegame.fr/france/",
     "github": {
       "backend": "",
@@ -108,15 +108,15 @@
       "spanish": "Febrero 2021"
     },
     "description": "The goal was to scrap data from the escapegame.fr website. This was part of an exercise in Le Reacteur Bootcamp. The program is able to collect data from a webpage which gathers every escape-game rooms located in France categorized by city. Once data is collected, it generates a json per cities containing every rooms data.",
-    "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452901/portfolio/projects-generics/escapegame-generic_dulfln.jpghttps://res.cloudinary.com/hysteria/image/upload/v1619452901/portfolio/projects-generics/escapegame-generic_dulfln.jpg",
-    "stacks-tags": ["Web-Scraping"],
+    "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452901/portfolio/projects-generics/escapegame-generic_dulfln.jpg",
+    "category": "Web-Scraping 🔍",
     "technologies-tags": ["Javascript", "Puppeteer", "fs"],
     "deploys": []
   },
   {
     "id": 4,
     "protected": false,
-    "route": "marvel",
+    "slug": "marvel",
     "url": "https://marvel-comics-api.netlify.app/",
     "github": {
       "backend": "https://github.com/anthonyrovira/marvel-backend",
@@ -130,7 +130,7 @@
     },
     "description": "Website which allows you to explore Marvel Comics API. All Characters and Comics are gathered and you can signup in order to select your favorites ones.",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452923/portfolio/projects-generics/marvel-generic_nc4nei.png",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": [
       "React",
       "Node",
@@ -138,7 +138,7 @@
       "Mongoose",
       "MongoDB",
       "Axios",
-      "React-Router",
+      "React-router",
       "js-cookie",
       "qs",
       "react-paginate",
@@ -152,7 +152,7 @@
   {
     "id": 5,
     "protected": false,
-    "route": "portfolio-nextjs",
+    "slug": "portfolio-nextjs",
     "url": "https://anthonyrovira.netlify.app/",
     "github": {
       "backend": "https://github.com/anthonyrovira/portfolio-nextjs",
@@ -166,14 +166,35 @@
     },
     "description": "My personal portfolio which allows you to see all my projects and know a bit more about me",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452939/portfolio/projects-generics/AR-Next-generic_urwc1n.png",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "SSR 🔗",
     "technologies-tags": ["React", "NextJS", "Google Analytics"],
     "deploys": ["Vercel"]
   },
   {
     "id": 6,
     "protected": false,
-    "route": "vinted",
+    "slug": "portfolio-gatsby",
+    "url": "",
+    "github": {
+      "backend": "",
+      "frontend": "https://github.com/anthonyrovira/portofolio-gatsby"
+    },
+    "title": "Portfolio NextJS",
+    "date": {
+      "english": "April, 2021",
+      "french": "Avril 2021",
+      "spanish": "Abril 2021"
+    },
+    "description": "This project was part of an exercise during Le Reacteur Rocket Training. A made half a day to create this static site which was the very first version of my personal portfolio. Working on this website made me understand the great value of SSG in terms of performance and also for SEO.",
+    "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452931/portfolio/projects-generics/AR-gatsby-generic_byszdq.png",
+    "category": "SSG 📰",
+    "technologies-tags": ["React", "Gatsby"],
+    "deploys": ["Netlify"]
+  },
+  {
+    "id": 7,
+    "protected": false,
+    "slug": "vinted",
     "url": "",
     "github": {
       "backend": "https://github.com/anthonyrovira/vinted-backend",
@@ -187,7 +208,7 @@
     },
     "description": "A beautiful replication of the Vinted's Website. Including a fully styled and functional Home page, an authentication form, a dynamic offer page and a mocking payment process with Stripe",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452961/portfolio/projects-generics/vinted-generic_san4yo.jpg",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": [
       "React",
       "NextJS",
@@ -196,7 +217,7 @@
       "Mongoose",
       "MongoDB",
       "Axios",
-      "React-Router",
+      "React-router",
       "js-cookie",
       "qs",
       "cors",
@@ -207,9 +228,9 @@
     "deploys": ["Netlify", "Heroku"]
   },
   {
-    "id": 7,
+    "id": 8,
     "protected": false,
-    "route": "deliveroo",
+    "slug": "deliveroo",
     "url": "https://deliveroo-react-hysteria.netlify.app/",
     "github": {
       "backend": "https://github.com/anthonyrovira/deliveroo-backend",
@@ -223,7 +244,7 @@
     },
     "description": "A realistic replication of the Deliveroo's Website. It is a single page listing dishes and a dynamic cart. This was part of a React exercise during Le Reacteur Bootcamp",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452884/portfolio/projects-generics/deliveroo-generic_qdbyjq.gif",
-    "stacks-tags": ["Frontend", "Backend"],
+    "category": "Full Stack 🚀",
     "technologies-tags": ["React"],
     "deploys": ["Netlify", "Heroku"]
   }

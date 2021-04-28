@@ -62,6 +62,8 @@ optgroup,
 select,
 textarea {
   font: inherit;
+  outline: none;
+  border: none;
   margin: 0;
 }
 optgroup {

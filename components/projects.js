@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import projects from "@content/json/ar-projects.json";
 import styles from "@styles/Projects.module.css";
 
@@ -13,9 +14,18 @@ const Projects = ({ content, language }) => {
         <div className={styles.gridContainer}>
           {projects.map((project) => {
             return (
-              <div key={project.id} className={styles.cardProjectContainer}>
-                {project.route}
-              </div>
+              <button key={project.id} className={styles.cardProjectContainer}>
+                <Image
+                  className={styles.projectThumbnail}
+                  src={project.thumbnail}
+                  layout="intrinsic"
+                  width={200}
+                  height={146}
+                  quality={100}
+                  alt={project.title}
+                />
+                <p className={styles.projectCategory}>{project.category}</p>
+              </button>
             );
           })}
         </div>
