@@ -72,7 +72,7 @@
     "deploys": ["Expo"]
   },
   {
-    "id": 2,
+    "id": 3,
     "protected": false,
     "slug": "airbnb",
     "url": "",
@@ -93,7 +93,7 @@
     "deploys": ["Expo"]
   },
   {
-    "id": 3,
+    "id": 4,
     "protected": false,
     "slug": "escapegame-scraping",
     "url": "https://www.escapegame.fr/france/",
@@ -114,7 +114,7 @@
     "deploys": []
   },
   {
-    "id": 4,
+    "id": 5,
     "protected": false,
     "slug": "marvel",
     "url": "https://marvel-comics-api.netlify.app/",
@@ -150,7 +150,7 @@
     "deploys": ["Netlify", "Heroku"]
   },
   {
-    "id": 5,
+    "id": 6,
     "protected": false,
     "slug": "portfolio-nextjs",
     "url": "https://anthonyrovira.netlify.app/",
@@ -166,12 +166,12 @@
     },
     "description": "My personal portfolio which allows you to see all my projects and know a bit more about me",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452939/portfolio/projects-generics/AR-Next-generic_urwc1n.png",
-    "category": "SSR 🔗",
+    "category": "Portfolio 👽",
     "technologies-tags": ["React", "NextJS", "Google Analytics"],
     "deploys": ["Vercel"]
   },
   {
-    "id": 6,
+    "id": 7,
     "protected": false,
     "slug": "portfolio-gatsby",
     "url": "",
@@ -187,12 +187,12 @@
     },
     "description": "This project was part of an exercise during Le Reacteur Rocket Training. A made half a day to create this static site which was the very first version of my personal portfolio. Working on this website made me understand the great value of SSG in terms of performance and also for SEO.",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452931/portfolio/projects-generics/AR-gatsby-generic_byszdq.png",
-    "category": "SSG 📰",
+    "category": "Portfolio 👽",
     "technologies-tags": ["React", "Gatsby"],
     "deploys": ["Netlify"]
   },
   {
-    "id": 7,
+    "id": 8,
     "protected": false,
     "slug": "vinted",
     "url": "",
@@ -228,7 +228,7 @@
     "deploys": ["Netlify", "Heroku"]
   },
   {
-    "id": 8,
+    "id": 9,
     "protected": false,
     "slug": "deliveroo",
     "url": "https://deliveroo-react-hysteria.netlify.app/",

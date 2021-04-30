@@ -14,18 +14,22 @@ const Projects = ({ content, language }) => {
         <div className={styles.gridContainer}>
           {projects.map((project) => {
             return (
-              <button key={project.id} className={styles.cardProjectContainer}>
-                <Image
-                  className={styles.projectThumbnail}
-                  src={project.thumbnail}
-                  layout="intrinsic"
-                  width={200}
-                  height={146}
-                  quality={100}
-                  alt={project.title}
-                />
+              <div key={project.id} className={styles.cardProjectContainer}>
+                <div className={styles.thumbnailContainer}>
+                  <Image
+                    className={styles.projectThumbnail}
+                    src={project.thumbnail}
+                    layout={"fill"}
+                    objectFit={"cover"}
+                    /*width={318}
+                    height={187}*/
+                    quality={100}
+                    alt={project.title}
+                  />
+                </div>
+
                 <p className={styles.projectCategory}>{project.category}</p>
-              </button>
+              </div>
             );
           })}
         </div>

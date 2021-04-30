@@ -15,7 +15,7 @@ import AnimatedSubtitle from "@components/animatedSubtitle";
 const Hero = ({ content }) => {
   const { title, subtitles, ctaRead, ctaContact } = content;
   return (
-    <div className={styles.heroContainer}>
+    <section className={styles.heroContainer}>
       <div className={styles.heroPictureContainer}>
         <Image
           className={styles.background}
@@ -65,7 +65,7 @@ const Hero = ({ content }) => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
