@@ -8,7 +8,9 @@
             "@lib/*": ["lib/*"],
             "@styles/*": ["styles/*"],
             "@store/*": ["store/*"],
-            "@reducers/*": ["reducers/*"]
+            "@reducers/*": ["reducers/*"],
+            "@contexts/*": ["contexts/*"],
+            "@hooks/*": ["hooks/*"]
         }
     }
 }
