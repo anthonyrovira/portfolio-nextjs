@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types";
+import React, { useState, useContext } from "react";
 import { Menu } from "react-feather";
 import styles from "@styles/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import data from "@content/json/ar-header.json";
+import { LanguageContext } from "@contexts/langContext";
 
 //import logo from "../public/images/lereacteur.jpeg";
 
-const Header = ({ sideMenu, setSideMenu, language }) => {
+const Header = ({ sideMenu, setSideMenu }) => {
+  const language = useContext(LanguageContext);
+
   return (
     <header className={styles.header}>
       <div className={styles.container}>
@@ -23,16 +25,9 @@ const Header = ({ sideMenu, setSideMenu, language }) => {
             />
           </div>
         </Link>
-        {/*<div className={styles.title}>
-            <p className={styles.name}>Anthony Rovira</p>
-            <p className={`${styles.job} ${styles[language]}`}>
-              {data[language].title}
-            </p>
-          </div>*/}
-
         <nav className={styles.navbarContainer}>
           <ul className={styles.navbar}>
-            {data[language].header.map((category, index) => {
+            {language.header.items.map((category, index) => {
               const item = Object.keys(category);
               return (
                 <div key={index} className={styles.navItem}>
@@ -51,16 +46,5 @@ const Header = ({ sideMenu, setSideMenu, language }) => {
     </header>
   );
 };
-/*
-<h1 className={styles.link}>
-    <Link href="/">{siteTitle}</Link>
-</h1>
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
 
-Header.defaultProps = {
-  siteTitle: ``,
-};
-*/
 export default Header;
