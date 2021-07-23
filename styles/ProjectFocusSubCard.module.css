@@ -1,0 +1,28 @@
+.subCardContainer {
+  flex: 12;
+  background-color: var(--light-grey);
+  border-bottom-left-radius: 1.6vw;
+  border-bottom-right-radius: 1.6vw;
+  font-family: "Sen";
+  font-size: 1.4vw;
+  width: 100%;
+  padding: 0 4vw;
+  padding-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftSubCard {
+  flex: 8;
+  border: #6f6 1px solid;
+}
+.rightSubCard {
+  flex: 3;
+  border: rgb(111, 57, 211) 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.deploys {
+}
