@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -9,11 +9,15 @@ import {
   GitHub,
 } from "react-feather";
 import styles from "@styles/Hero.module.css";
+import { LanguageContext } from "@contexts/langContext";
 
 import AnimatedSubtitle from "@components/animatedSubtitle";
 
-const Hero = ({ content }) => {
-  const { title, subtitles, ctaRead, ctaContact } = content;
+const Hero = () => {
+  const language = useContext(LanguageContext);
+
+  const { title, subtitles, ctaRead, ctaContact } = language.main.hero;
+
   return (
     <section className={styles.heroContainer}>
       <div className={styles.heroPictureContainer}>

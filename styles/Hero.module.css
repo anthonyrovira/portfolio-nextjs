@@ -27,7 +27,7 @@
   font-family: "Sen";
   white-space: nowrap;
   font-weight: lighter;
-  font-size: 4vw;
+  font-size: 3.6em;
   letter-spacing: 1vw;
   color: var(--white);
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -35,7 +35,7 @@
 }
 
 .line {
-  margin-top: -0.7vh;
+  margin-top: 1.2vh;
   margin-bottom: 2vh;
   height: 2px;
   width: 100%;
@@ -43,7 +43,7 @@
 }
 
 .icon {
-  width: 1.4vw;
+  width: 1.2em;
   height: auto;
 }
 .cta .icon {
@@ -57,14 +57,14 @@
 }
 
 .cta {
-  height: 8vh;
-  margin-top: 4vh;
+  height: 3em;
+  margin-top: 2.6em;
   padding: 0.2vw 1.2vw;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
   border-radius: calc(8vh / 2);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .cta span {
@@ -74,7 +74,7 @@
 }
 
 .ctaPrimary {
-  width: 11.5vw;
+  min-width: 11.5vw;
   color: white;
   border: var(--blue-grey-3) 2px solid;
   transition: 0.6s;
@@ -88,7 +88,7 @@
 }
 
 .ctaSecondary {
-  width: 12vw;
+  min-width: 12vw;
   color: var(--blue-grey-5);
   background-color: var(--white);
   margin-left: 0.8vw;
@@ -117,7 +117,7 @@
 .snIcon {
   color: var(--white);
   transition: 0.6s;
-  width: 100%;
+  width: 5vh;
   height: 5vh;
   padding: auto 8px;
   filter: brightness(0.75);
@@ -129,7 +129,16 @@
   filter: brightness(1);
 }
 
+@media (min-width: 1024px) {
+  .title {
+    font-size: 3.6em;
+  }
+}
+
 @media (min-width: 729px) and (max-width: 1024px) {
+  .title {
+    font-size: 3em;
+  }
   .ctaPrimary {
     width: 19vw;
     margin-left: 1.4vw;
@@ -139,20 +148,27 @@
     margin-left: 3vw;
   }
   .cta {
-    margin-top: 4vh;
-    height: 8vh;
+    margin-top: 2.8em;
+    height: 3.2em;
     padding: 0 2.2vw;
     border-radius: calc(8vh / 2);
   }
   .cta span {
-    font-size: 1.8vw;
+    font-size: 1em;
   }
   .icon {
     width: 2.4vw;
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 526px) and (max-width: 729px) {
+  .title {
+    font-size: 2.6em;
+  }
+  .line {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+  }
   .ctaPrimary {
     width: 21vw;
     margin-left: 1.4vw;
@@ -162,9 +178,9 @@
     margin-left: 3vw;
   }
   .cta {
-    margin-top: 4vh;
-    height: 6vh;
-    padding: 0 2.2vw;
+    margin-top: 2.6em;
+    height: 2.6em;
+    padding: 0 1em;
     border-radius: calc(6vh / 2);
   }
   .cta span {
@@ -175,20 +191,24 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 426px) {
+@media (min-width: 376px) and (max-width: 526px) {
   .heroContentContainer {
     width: 85vw;
     margin-top: 7vh;
   }
   .title {
-    font-size: 5.8vw;
+    font-size: 2.2em;
   }
   .line {
-    margin-top: -2vh;
+    margin-top: 4vh;
     margin-bottom: 2vh;
   }
   .snContainer {
     width: 70%;
+  }
+  .snIcon {
+    width: 4vh;
+    height: 4vh;
   }
   .ctaPrimary {
     width: 28vw;
@@ -217,14 +237,18 @@
     margin-top: 7vh;
   }
   .title {
-    font-size: 5.8vw;
+    font-size: 1.8em;
   }
   .line {
-    margin-top: -2vh;
+    margin-top: 4vh;
     margin-bottom: 2vh;
   }
   .snContainer {
     width: 70%;
+  }
+  .snIcon {
+    width: 4vh;
+    height: 4vh;
   }
   .ctaPrimary {
     width: 30vw;
@@ -236,7 +260,7 @@
   }
   .cta {
     margin-top: 4vh;
-    height: 5.6vh;
+    height: 2.4em;
     padding: 0 2.2vw;
     border-radius: calc(5.6vh / 2);
   }
