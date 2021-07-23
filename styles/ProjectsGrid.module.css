@@ -1,0 +1,22 @@
+.gridContainer {
+  max-width: 85%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  row-gap: 2em;
+  column-gap: 3em;
+  border: 1px solid #f00;
+}
+
+@media (min-width: 429px) and (max-width: 1024px) {
+  .gridContainer {
+    max-width: 70%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    row-gap: 2em;
+    column-gap: 4em;
+  }
+}
