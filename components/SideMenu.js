@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext } from "react";
 import { Home, X, Linkedin, GitHub, Twitter } from "react-feather";
-import data from "@content/json/ar-header.json";
-
+import { LanguageContext } from "@contexts/langContext";
 import styles from "@styles/SideMenu.module.css";
 
 const SideMenu = ({ sideMenu, setSideMenu }) => {
-  const [language, setLanguage] = useState("english");
+  const language = useContext(LanguageContext);
+
   return (
     <div className={styles.menuContainer}>
       <div className={styles.topMenuContainer}>
@@ -19,7 +19,7 @@ const SideMenu = ({ sideMenu, setSideMenu }) => {
 
       <nav className={styles.navMenuContainer}>
         <ul className={styles.navMenu}>
-          {data[language].header.map((category, index) => {
+          {language.header.items.map((category, index) => {
             const item = Object.keys(category);
             return (
               <div key={index} className={styles.navItem}>
