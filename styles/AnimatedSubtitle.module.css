@@ -8,7 +8,7 @@
   font-family: "Sen";
   white-space: nowrap;
   font-weight: lighter;
-  font-size: 2.8vw;
+  font-size: 2.4em;
   letter-spacing: 1.4vw;
   color: var(--white);
   text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
@@ -16,7 +16,7 @@
 }
 
 .cursor {
-  font-size: 2.8vw;
+  font-size: 2.4em;
   opacity: 1;
   -webkit-animation: blink 0.4s infinite;
   -moz-animation: blink 0.4s infinite;
@@ -44,15 +44,58 @@
 
 @media (min-width: 1024px) {
   .subtitleContainer * {
-    letter-spacing: 1vw;
+    font-size: 2.4em;
+  }
+  .cursor {
+    font-size: 2.4em;
   }
 }
 
-@media (max-width: 426px) {
+@media (min-width: 729px) and (max-width: 1024px) {
   .subtitleContainer * {
-    font-size: 3.6vw;
+    font-size: 2em;
   }
   .cursor {
-    font-size: 3.6vw;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 729px) {
+  .subtitleContainer * {
+    font-size: 1.7em;
+    letter-spacing: 0.385em;
+  }
+  .cursor {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 580px) {
+  .subtitleContainer * {
+    font-size: 1.6em;
+    letter-spacing: 0.215em;
+  }
+  .cursor {
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+  .subtitleContainer * {
+    font-size: 1.4em;
+    letter-spacing: 0.215em;
+  }
+  .cursor {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 376px) {
+  .subtitleContainer * {
+    font-size: 1.2em;
+    letter-spacing: 0.205em;
+  }
+  .cursor {
+    font-size: 1.2em;
   }
 }
