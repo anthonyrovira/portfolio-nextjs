@@ -30,7 +30,13 @@
   font-size: 1vw;
 }
 
-@media (min-width: 429px) and (max-width: 1024px) {
+@media (min-width: 980px) and (max-width: 1024px) {
+  .cardProjectContainer {
+    min-width: calc((70vw / 2)-6em);
+  }
+}
+
+@media (min-width: 720px) and (max-width: 980px) {
   .cardProjectContainer {
     min-width: calc((70vw / 2)-6em);
   }
