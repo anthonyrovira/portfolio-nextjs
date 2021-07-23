@@ -4,18 +4,19 @@
     "protected": false,
     "slug": "tripadvisor",
     "url": "https://tripadvisor-frontend.netlify.app/",
+    "netlify": "https://api.netlify.com/api/v1/badges/3a6a3445-a7ae-45b0-9ed8-401026e7cdde/deploy-status",
     "github": {
       "backend": "https://github.com/anthonyrovira/tripadvisor-backend",
       "frontend": "https://github.com/anthonyrovira/tripadvisor-frontend"
     },
     "title": "TripAdvisor - Buenos Aires",
-    "date": {
-      "english": "December, 2020",
-      "french": "Décembre 2020",
-      "spanish": "Diciembre 2020"
-    },
-    "description": "A pure reproduction of the Buenos Aires main page on TripAdvisor. The main goal was to put into practice frontend techniques that we learnt (DOM, Responsive, Flexbox, etc) but also to implement a small database for a login/signup usage (able to send an email confirmation on signup)",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452954/portfolio/projects-generics/tripadvisor-generic_fbcwic.png",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619978974/portfolio/tripadvisor/1_enulug.gif",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875044/portfolio/tripadvisor/2_znu6l5.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619977199/portfolio/tripadvisor/3_acebze.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619977200/portfolio/tripadvisor/4_edtfyq.png"
+    ],
     "category": "Full Stack 🚀",
     "technologies-tags": [
       "HTML",
@@ -34,18 +35,21 @@
     "protected": true,
     "slug": "tellmemore",
     "url": "https://tell-me-more-reacteur.netlify.app/",
+    "netlify": "https://api.netlify.com/api/v1/badges/3a6a3445-a7ae-45b0-9ed8-401026e7cdde/deploy-status",
     "github": {
       "backend": "https://github.com/anthonyrovira/tell-me-more-backend",
       "frontend": "https://github.com/anthonyrovira/tell-me-more-front"
     },
     "title": "Tell Me More",
-    "date": {
-      "english": "March, 2021",
-      "french": "Mars 2021",
-      "spanish": "Marzo 2021"
-    },
-    "description": "Full-stack project inspired by TypeForm. It is a survey form generator which allows to make friendly and editable forms, to fill them in and to visualize and administrate replies. This project was part of a technical test. Therefore the GitHub repository is private and the website access is password restricted. However, access can be given submitting request in contact field.",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619453306/portfolio/projects-generics/tellmemore-generic_yjy0ty.png",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875041/portfolio/tellmemore/1_l3bx8y.gif",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/tellmemore/2_uxqm4d.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875041/portfolio/tellmemore/3_p9akhv.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/tellmemore/4_dxoot2.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875043/portfolio/tellmemore/5_n2x0bf.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875043/portfolio/tellmemore/6_jpf2me.png"
+    ],
     "category": "Full Stack 🚀",
     "technologies-tags": ["React"],
     "deploys": ["Netlify", "Heroku"]
@@ -60,13 +64,12 @@
       "frontend": "https://github.com/anthonyrovira/yuka-app"
     },
     "title": "Yuka",
-    "date": {
-      "english": "March, 2021",
-      "french": "Mars 2021",
-      "spanish": "Marzo 2021"
-    },
-    "description": "A pure replication of the Yuka mobile app. It allows to scan for products barcode to save them and to know about their nutrient data. Theses data are provided by the public OpenFoodFacts database. ",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452972/portfolio/projects-generics/yuka-generic_dadpfu.jpg",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619986729/portfolio/yuka/1_osfn9k.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619986779/portfolio/yuka/2_s84rdh.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619986806/portfolio/yuka/3_bogl5o.png"
+    ],
     "category": "Full Stack 🚀",
     "technologies-tags": ["React Native"],
     "deploys": ["Expo"]
@@ -81,13 +84,15 @@
       "frontend": "https://github.com/anthonyrovira/airbnb-app"
     },
     "title": "Airbnb",
-    "date": {
-      "english": "February, 2021",
-      "french": "Février 2021",
-      "spanish": "Febrero 2021"
-    },
-    "description": "",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452872/portfolio/projects-generics/airbnb-logo_k1rfwg.jpg",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619981280/portfolio/airbnb/1_bir5j1.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619981328/portfolio/airbnb/2_yhxmpv.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619981381/portfolio/airbnb/3_pdfl6j.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619981470/portfolio/airbnb/4_ojb62s.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619981565/portfolio/airbnb/5_cu7hcx.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619981604/portfolio/airbnb/6_k3ei11.png"
+    ],
     "category": "Full Stack 🚀",
     "technologies-tags": ["React Native"],
     "deploys": ["Expo"]
@@ -102,13 +107,13 @@
       "frontend": "https://github.com/anthonyrovira/escapegame-scraping"
     },
     "title": "EscapeGame.fr - Scraping",
-    "date": {
-      "english": "February, 2021",
-      "french": "Février 2021",
-      "spanish": "Febrero 2021"
-    },
-    "description": "The goal was to scrap data from the escapegame.fr website. This was part of an exercise in Le Reacteur Bootcamp. The program is able to collect data from a webpage which gathers every escape-game rooms located in France categorized by city. Once data is collected, it generates a json per cities containing every rooms data.",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452901/portfolio/projects-generics/escapegame-generic_dulfln.jpg",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875044/portfolio/escapegame-scraping/1_uk5wrb.gif",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619963135/portfolio/escapegame-scraping/2_ba96kh.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875044/portfolio/escapegame-scraping/3_ryhtcj.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875050/portfolio/escapegame-scraping/4_xu1bk9.png"
+    ],
     "category": "Web-Scraping 🔍",
     "technologies-tags": ["Javascript", "Puppeteer", "fs"],
     "deploys": []
@@ -118,18 +123,20 @@
     "protected": false,
     "slug": "marvel",
     "url": "https://marvel-comics-api.netlify.app/",
+    "netlify": "https://api.netlify.com/api/v1/badges/3a6a3445-a7ae-45b0-9ed8-401026e7cdde/deploy-status",
     "github": {
-      "backend": "https://github.com/anthonyrovira/marvel-backend",
+      "backend": "",
       "frontend": "https://github.com/anthonyrovira/marvel-frontend"
     },
-    "title": "Marvel Comics API",
-    "date": {
-      "english": "March, 2021",
-      "french": "Mars 2021",
-      "spanish": "Marzo 2021"
-    },
-    "description": "Website which allows you to explore Marvel Comics API. All Characters and Comics are gathered and you can signup in order to select your favorites ones.",
+    "title": "Marvel Comics",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452923/portfolio/projects-generics/marvel-generic_nc4nei.png",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/marvel/1_smaegm.gif",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/marvel/2_dvrgap.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/marvel/3_mza0pz.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/marvel/4_cc04go.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/marvel/5_unl20x.png"
+    ],
     "category": "Full Stack 🚀",
     "technologies-tags": [
       "React",
@@ -155,17 +162,14 @@
     "slug": "portfolio-nextjs",
     "url": "https://anthonyrovira.netlify.app/",
     "github": {
-      "backend": "https://github.com/anthonyrovira/portfolio-nextjs",
+      "backend": "",
       "frontend": "https://github.com/anthonyrovira/portfolio-nextjs"
     },
     "title": "Portfolio NextJS",
-    "date": {
-      "english": "May, 2021",
-      "french": "Mai 2021",
-      "spanish": "Mayo 2021"
-    },
-    "description": "My personal portfolio which allows you to see all my projects and know a bit more about me",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452939/portfolio/projects-generics/AR-Next-generic_urwc1n.png",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875826/portfolio/portfolio-nextjs/2_jzm9b6.png"
+    ],
     "category": "Portfolio 👽",
     "technologies-tags": ["React", "NextJS", "Google Analytics"],
     "deploys": ["Vercel"]
@@ -180,13 +184,14 @@
       "frontend": "https://github.com/anthonyrovira/portofolio-gatsby"
     },
     "title": "Portfolio NextJS",
-    "date": {
-      "english": "April, 2021",
-      "french": "Avril 2021",
-      "spanish": "Abril 2021"
-    },
-    "description": "This project was part of an exercise during Le Reacteur Rocket Training. A made half a day to create this static site which was the very first version of my personal portfolio. Working on this website made me understand the great value of SSG in terms of performance and also for SEO.",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452931/portfolio/projects-generics/AR-gatsby-generic_byszdq.png",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875042/portfolio/portfolio-gatsby/1_xjtkc6.gif",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875043/portfolio/portfolio-gatsby/2_o5kfvp.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875041/portfolio/portfolio-gatsby/3_tbdfcc.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875041/portfolio/portfolio-gatsby/4_mkprud.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875041/portfolio/portfolio-gatsby/5_n2xthe.png"
+    ],
     "category": "Portfolio 👽",
     "technologies-tags": ["React", "Gatsby"],
     "deploys": ["Netlify"]
@@ -195,19 +200,15 @@
     "id": 8,
     "protected": false,
     "slug": "vinted",
-    "url": "",
+    "url": "https://vinted-replication.netlify.app",
+    "netlify": "https://api.netlify.com/api/v1/badges/3a6a3445-a7ae-45b0-9ed8-401026e7cdde/deploy-status",
     "github": {
       "backend": "https://github.com/anthonyrovira/vinted-backend",
       "frontend": "https://github.com/anthonyrovira/vinted-frontend"
     },
     "title": "Vinted",
-    "date": {
-      "english": "January, 2021",
-      "french": "Janvier 2021",
-      "spanish": "Enero 2021"
-    },
-    "description": "A beautiful replication of the Vinted's Website. Including a fully styled and functional Home page, an authentication form, a dynamic offer page and a mocking payment process with Stripe",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452961/portfolio/projects-generics/vinted-generic_san4yo.jpg",
+    "pictures": [],
     "category": "Full Stack 🚀",
     "technologies-tags": [
       "React",
@@ -232,18 +233,18 @@
     "protected": false,
     "slug": "deliveroo",
     "url": "https://deliveroo-react-hysteria.netlify.app/",
+    "netlify": "https://api.netlify.com/api/v1/badges/3a6a3445-a7ae-45b0-9ed8-401026e7cdde/deploy-status",
     "github": {
       "backend": "https://github.com/anthonyrovira/deliveroo-backend",
       "frontend": "https://github.com/anthonyrovira/deliveroo-frontend"
     },
     "title": "Deliveroo",
-    "date": {
-      "english": "January, 2021",
-      "french": "Janvier 2021",
-      "spanish": "Enero 2021"
-    },
-    "description": "A realistic replication of the Deliveroo's Website. It is a single page listing dishes and a dynamic cart. This was part of a React exercise during Le Reacteur Bootcamp",
     "thumbnail": "https://res.cloudinary.com/hysteria/image/upload/v1619452884/portfolio/projects-generics/deliveroo-generic_qdbyjq.gif",
+    "pictures": [
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875045/portfolio/deliveroo/1_flwcxj.gif",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875043/portfolio/deliveroo/2_vuaptx.png",
+      "https://res.cloudinary.com/hysteria/image/upload/v1619875044/portfolio/deliveroo/3_ylzaje.png"
+    ],
     "category": "Full Stack 🚀",
     "technologies-tags": ["React"],
     "deploys": ["Netlify", "Heroku"]
